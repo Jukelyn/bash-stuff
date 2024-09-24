@@ -1,0 +1,9 @@
+/home/juke/docker/main
+/home/juke/docker/main/monitoring
+/home/juke/docker/main/sites
+/home/juke/docker/main/sites/testing
+/home/juke/docker/main/vaultwarden
+/home/juke/docker/main/jellyfin
+/srv/dockerdata/immich
+/home/juke/docker/main/hass
+
