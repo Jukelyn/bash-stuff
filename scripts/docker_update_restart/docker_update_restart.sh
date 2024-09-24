@@ -20,7 +20,7 @@ do
     cd "$location" || exit
 
     echo "Running in $dir_name" | tee -a "$log_file"
-#    docker compose pull > /dev/null 2>&1 && docker compose down > /dev/null 2>&1 && docker compose up -d > /dev/null 2>&1
+    docker compose pull > /dev/null 2>&1 && docker compose down > /dev/null 2>&1 && docker compose up -d > /dev/null 2>&1
     echo -e "Completed $dir_name\n" | tee -a "$log_file"
 
     cd - > /dev/null
