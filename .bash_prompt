@@ -1,4 +1,4 @@
-PS1="[\D{%b%e} \@] "  # Date and time 12-hr
+PS1="[\d \@] "  # Date and time am/pm
 PS1+="\[$(tput setaf 39)\]\# "  # Command number
 PS1+="\[$(tput setaf 47)\]\u"  # Current user
 #PS1+="@\H"  # Hostname
