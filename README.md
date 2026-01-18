@@ -22,5 +22,5 @@ network:
       nameservers:
         addresses:
           - 192.168.8.46
-	  - 9.9.9.9
+          - 9.9.9.9
 ```
