@@ -24,3 +24,9 @@ network:
           - 192.168.8.46
           - 9.9.9.9
 ```
+
+LVM fill space
+
+```
+sudo lvextend -r -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+```
